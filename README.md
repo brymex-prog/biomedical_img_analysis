@@ -15,7 +15,7 @@ A compact pipeline for nuclei microscopy image analysis that combines classical 
 ## Repository Structure
 
 ```text
-.
+
 ├── notebook/     # Main Jupyter notebook (Colab-ready, runs end to end)
 ├── outputs/      # Figures, JSON records, CSVs, and trained checkpoints
 ├── report/       # Final written report (Word/PDF)
