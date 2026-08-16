@@ -1,0 +1,21 @@
+{
+  "image_id": "test_000",
+  "corruption": "synthetic gaussian_blur_sigma_4.0 (test_corrupted/ not found)",
+  "clean": {
+    "otsu_n_objects": 8,
+    "unet_n_objects": 8
+  },
+  "corrupted": {
+    "otsu_n_objects": 7,
+    "unet_n_objects": 7,
+    "unet_summary_text": "Number of detected objects: 7\nMean area (pixels): 370.9 (std 228.0, min 135, max 759)\nMean eccentricity: 0.520 (0 = circle, closer to 1 = elongated)\nMean solidity: 0.953 (fraction of convex hull filled; lower = irregular shape)\nMean object intensity (0-1 scale): 0.118\nMean perimeter (pixels): 69.0",
+    "llm_parsed_json": {
+      "image_id": "test_000_corrupted",
+      "n_objects": 7,
+      "mean_area": 370.9,
+      "density_class": "moderate",
+      "quality_flag": "uncertain"
+    },
+    "llm_raw_response": "The measurements suggest that there are seven objects detected in the image with a mean area suggesting they vary from relatively small to larger entities. The average eccentricity indicates these shapes tend towards circular but have some elongation as well. High solidity implies most of their shape is convex, and low object intensity suggests fainter features within them on this scaled measurement.\n\n```json\n{\n  \"image_id\": \"test_000_corrupted\",\n  \"n_objects\": 7,\n  \"mean_area\": 370.9,\n  \"density_class\": \"moderate\",\n  \"quality_flag\": \"uncertain\"\n}\n```"
+  }
+}

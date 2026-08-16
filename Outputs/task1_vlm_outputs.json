@@ -1,0 +1,39 @@
+{
+  "image_id": "val_000",
+  "naive": {
+    "prompt": "Describe this medical image.",
+    "response": "The image presents a medical scan of a patient's brain, specifically highlighting a small, dark-colored area. The purpose of this image is to provide a visual representation of the patient's brain structure and identify any potential abnormalities or areas of interest.\n\n* A small, dark-colored area is visible in the brain scan:\n\t+ The area is located in the upper left corner of the image.\n\t+ It appears as a small, circular or oval-shaped region.\n\t+ The area is darker than the surrounding brain tissue, indicating a possible abnormality or anomaly.\n\nThe main finding from this image is the presence of a small, dark-colored area in the brain scan, which may indicate a potential issue or anomaly that requires further investigation. There are no significant changes or comparisons noted in this image."
+  },
+  "structured_runs": [
+    {
+      "run": 1,
+      "parsed_json": {
+        "modality": "uncertain",
+        "tissue_type": "uncertain",
+        "notable_features": "The image appears to be a dark background with several light spots, but there is no clear indication of what these spots are or what they represent.",
+        "image_quality": "poor"
+      },
+      "raw_response": "{\n    \"modality\": \"uncertain\",\n    \"tissue_type\": \"uncertain\",\n    \"notable_features\": \"The image appears to be a dark background with several light spots, but there is no clear indication of what these spots are or what they represent.\",\n    \"image_quality\": \"poor\"\n}"
+    },
+    {
+      "run": 2,
+      "parsed_json": {
+        "modality": "uncertain",
+        "tissue_type": "uncertain",
+        "notable_features": "The image is extremely blurry and the features are indistinguishable.",
+        "image_quality": "poor"
+      },
+      "raw_response": "{\n  \"modality\": \"uncertain\",\n  \"tissue_type\": \"uncertain\",\n  \"notable_features\": \"The image is extremely blurry and the features are indistinguishable.\",\n  \"image_quality\": \"poor\"\n}"
+    },
+    {
+      "run": 3,
+      "parsed_json": {
+        "modality": "uncertain",
+        "tissue_type": "uncertain",
+        "notable_features": "The image appears to be a low-resolution, pixelated representation of a cell or tissue sample, but the details are indistinct.",
+        "image_quality": "poor"
+      },
+      "raw_response": "{\n  \"modality\": \"uncertain\",\n  \"tissue_type\": \"uncertain\",\n  \"notable_features\": \"The image appears to be a low-resolution, pixelated representation of a cell or tissue sample, but the details are indistinct.\",\n  \"image_quality\": \"poor\"\n}"
+    }
+  ]
+}

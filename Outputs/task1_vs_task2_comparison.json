@@ -1,0 +1,15 @@
+{
+  "image_id": "val_000",
+  "task1_vlm_structured": {
+    "modality": "uncertain",
+    "tissue_type": "uncertain",
+    "notable_features": "The image appears to be a dark background with several light spots, but there is no clear indication of what these spots are or what they represent.",
+    "image_quality": "poor"
+  },
+  "task2_numbers_first": {
+    "n_objects": 5,
+    "density_class": "moderate",
+    "shape_regularity": "mixed",
+    "quality_flag": "good"
+  }
+}

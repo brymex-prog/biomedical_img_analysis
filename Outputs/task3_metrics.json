@@ -1,0 +1,8 @@
+{
+  "loss_type": "bce_dice",
+  "epochs": 25,
+  "best_val_dice": 0.9959512233734131,
+  "final_val_dice": 0.9959512233734131,
+  "final_val_iou": 0.9919380426406861,
+  "checkpoint": "/content/nuclei_pipeline/outputs/checkpoints/unet_best.pt"
+}
